@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/assets/archive.css"/>
   </head>
-  <body class="catalog-archive">
+  <body class="catalog-archive" data-year="{{page.year}}" data-term="{{page.term}}">
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,10 +36,13 @@
       </div><!-- /.container-fluid -->
     </nav>
     <div class="container">
+      <a class="btn btn-primary pull-right" href="http://catalog-archive.csumb.edu/{{page.year}}/{{page.path}}" target="_blank">Open old page</a>
       <div class="page-header">
         <h1>{{page.title}}</h1>
       </div>
-      {{ content }}
+      <div id="catalog-{{page.year}}">
+        {{ content }}
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
