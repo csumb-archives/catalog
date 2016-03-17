@@ -5,3 +5,16 @@
 ul ul {
   margin-left: 15px;
 }
+
+.anchor-link {
+  display: none;
+  font-size: 12px;
+}
+
+h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .anchor-link, h5:hover .anchor-link {
+  display: inline;
+}
+
+.collapsible .glyphicon {
+  display: none;
+}

@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>{{page.title}}</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/assets/archive.css"/>
   </head>
   <body class="catalog-archive" data-year="{{page.year}}" data-term="{{page.term}}">
@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">CSUMB Catalog archive <strong>{{ page.year }}</strong></a>
+          <a class="navbar-brand" href="/">CSUMB Catalog archive <strong>{{ page.longyear }}</strong></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,7 +25,13 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other years <span class="caret"></span></a>
               <ul class="dropdown-menu" id="other-years">
-
+                {% for catalog in site.data.catalog %}
+                  <li>
+                    <a href="/{{catalog.year}}">
+                      {{ catalog.longyear }}
+                    </a>
+                  </li>
+                {% endfor %}
               </ul>
             </li>
           </ul>
@@ -44,8 +50,7 @@
         {{ content }}
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="/assets/archive.js"></script>
+    <script data-main="/assets/js/archive" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.22/require.min.js"></script>
+    {% include course-modal.html %}
   </body>
 </html>
