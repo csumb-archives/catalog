@@ -27,7 +27,7 @@ define(function(require) {
     },
 
     prepareModal : function() {
-      var source   = $("#template-course-modal").html();
+      var source   = $('#template-course-modal').html();
       this.modalTemplate = Handlebars.compile(source);
       $('body').append('<div id="temp-course-modal">');
     },
