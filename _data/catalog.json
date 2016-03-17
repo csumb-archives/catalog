@@ -161,5 +161,14 @@
     "longyear": "Spring 2005",
     "term": 2052,
     "titlePrefix": "CSUMB Catalog - "
+  },
+  {
+    "year": "test",
+    "title": "h3.Title",
+    "content": "td[width=553]",
+    "navigation": "td[width=187]",
+    "longyear": "Spring 2005",
+    "term": 2164,
+    "titlePrefix": "CSUMB Catalog - "
   }
 ]
