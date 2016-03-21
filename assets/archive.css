@@ -18,3 +18,22 @@ h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .anchor-link, h5:hover .a
 .collapsible .glyphicon {
   display: none;
 }
+
+.course-list {
+  padding-left: 5px;
+  list-style-type: none;
+}
+ul.course-list li a {
+  margin-left: 15px;
+}
+
+ul.course-list .course-concentration-divider {
+  margin-left: -5px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+#catalog-archive-navigation ul {
+  padding-left: 5px;
+  list-style-type: none !important;
+}
