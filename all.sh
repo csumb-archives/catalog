@@ -1,0 +1,19 @@
+#!/bin/bash
+node convert.js fall2005;
+node convert.js fall2006;
+node convert.js fall2007;
+node convert.js fall2008;
+node convert.js fall2009;
+node convert.js fall2010;
+node convert.js fall2011;
+node convert.js fall2012;
+node convert.js fall2013;
+node convert.js fall2014;
+node convert.js fall2015;
+node convert.js spring2005;
+node convert.js spring2006;
+node convert.js spring2007;
+node convert.js spring2008;
+node convert.js spring2009;
+node convert.js spring2010;
+node convert.js spring2011;

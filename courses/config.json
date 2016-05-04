@@ -1,0 +1,8 @@
+{
+  "files" : {
+    "attributes" : "csv/attributes.csv",
+    "catalog" : "csv/catalog.csv",
+    "offer" : "csv/offer.csv",
+    "requirements" : "csv/requirements.csv"
+  }
+}
