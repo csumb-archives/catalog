@@ -9,7 +9,7 @@ git clone -b build https://$GITHUB_USER:$GITHUB_TOKEN@github.com/csumb-archives/
 cd build/courses
 npm install
 node --max-old-space-size=8192 generate.js ../../_dist/courses/json/
-cd _dist
+cd /tmp/_dist
 git add courses/*
-git commit -m "Autodeploy: updated design submodule to csumbdotedu/_design@$TRAVIS_COMMIT"
+git commit -m "Autodeploy: updated design submodule to csumb-archives/catalog-archive-test@$TRAVIS_COMMIT"
 git push origin gh-pages
