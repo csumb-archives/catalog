@@ -30,7 +30,7 @@ csv.parse(courseFile.toString(), { columns : true, trim: true, relax: true}, fun
       var index = offer.subject.toLowerCase() + '-' + offer.catalog_nbr.toLowerCase();
       if(items.indexOf(index) == -1) {
         items.push(index);
-        fs.writeFile('_dist/courses/json/' + index + '.json', JSON.stringify(course));
+        fs.writeFile('../../_dist/courses/json/' + index + '.json', JSON.stringify(course));
       }
     });
   });
