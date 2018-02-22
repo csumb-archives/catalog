@@ -1,5 +1,15 @@
 [
   {
+    "year": "fall2017",
+    "title": "h1.title",
+    "content": ".field-type-sir-trevor .field-item",
+    "navigation": false,
+    "navigationFile": "../src/fall2017/navigation.txt",
+    "longyear": "Fall 2017 - 2018",
+    "term": 2174,
+    "titlePrefix": "| Cal State Monterey Bay"
+  },
+  {
     "year": "fall2016",
     "title": "h1.title",
     "content": ".field-type-sir-trevor .field-item",
