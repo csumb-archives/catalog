@@ -4,10 +4,13 @@ title: CSUMB Catalog archive
 ---
 <ul>
   {% for catalog in site.data.catalog %}
-    <li>
-      <a href="{{catalog.year}}">
-        {{ catalog.longyear }}
-      </a>
-    </li>
+    {% if catalog.hide %}
+    {% else %}
+      <li>
+        <a href="{{catalog.year}}">
+          {{ catalog.longyear }}
+        </a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
