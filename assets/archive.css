@@ -6,6 +6,15 @@ ul ul {
   margin-left: 15px;
 }
 
+button.css-n1sq7h {
+  background: transparent;
+  border: none;
+}
+
+button svg {
+  display: none;
+}
+
 .anchor-link {
   display: none;
   font-size: 12px;
