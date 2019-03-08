@@ -11,7 +11,8 @@ button.css-n1sq7h {
   border: none;
 }
 
-button svg {
+button svg,
+svg {
   display: none;
 }
 
@@ -20,7 +21,10 @@ button svg {
   font-size: 12px;
 }
 
-h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .anchor-link, h5:hover .anchor-link {
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link {
   display: inline;
 }
 
