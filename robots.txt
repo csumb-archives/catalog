@@ -24,4 +24,3 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://csumb.edu/sitemap.xml
