@@ -1,0 +1,27 @@
+User-Agent: googlebot
+Allow: /
+crawl-delay: 2
+
+User-Agent: googlebot-image
+Allow: /
+crawl-delay: 2
+
+User-Agent: duckduckbot
+Allow: /
+crawl-delay: 2
+
+User-Agent: bingbot
+Allow: /
+crawl-delay: 2
+
+User-Agent: msnbot
+Allow: /
+crawl-delay: 2
+
+User-agent: SiteimproveBot-Crawler
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://csumb.edu/sitemap.xml
