@@ -1,26 +1,21 @@
 User-Agent: googlebot
-Allow: /
-crawl-delay: 2
+Disallow: /
 
 User-Agent: googlebot-image
-Allow: /
-crawl-delay: 2
+Disallow: /
 
 User-Agent: duckduckbot
-Allow: /
-crawl-delay: 2
+Disallow: /
 
 User-Agent: bingbot
-Allow: /
-crawl-delay: 2
+Disallow: /
 
 User-Agent: msnbot
-Allow: /
-crawl-delay: 2
+Disallow: /
 
 User-agent: SiteimproveBot-Crawler
-Allow: /
+Disallow: /
 
 User-agent: *
-Allow: /
+Disallow: /
 
